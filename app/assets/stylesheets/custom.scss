@@ -1,0 +1,32 @@
+#navbar{
+    width:100%;
+    background-color:darkorange;
+    color: blue;
+}
+#navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0%;
+}
+#navbar li {
+    padding: 10px 20px;
+}
+#navbar a {
+    text-decoration: none;
+    color: firebrick;
+}
+#content{
+    padding: 20px 40px;
+}
+#bt-green{
+    padding:12px 18px;
+    background-color: rgb(12, 236, 12);
+    text-decoration: none;
+    border-radius: 5px;
+}
+#bt-info{
+    padding:12px 18px;
+    background-color:white ;
+    text-decoration: none;
+    border-radius: 5px;
+}

@@ -20,9 +20,9 @@
         <td><%= carro.modelo %></td>
         <td><%= carro.chassi %></td>
         <td><%= carro.ano %></td>
-        <td><%= link_to 'datalhes', carro, class:"bt-info"end %></td>
-        <td><%= link_to 'Editar', edit_carro_path(carro) %></td>
-        <td><%= link_to 'Deletar', carro, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'datalhes', carro, class:"bt-info bt" %></td>
+        <td><%= link_to 'Editar', edit_carro_path(carro),class:"bt-blue bt" %></td>
+        <td><%= link_to 'Deletar', carro,class:"bt-red bt", method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -30,4 +30,4 @@
 
 <br>
 
-<%= link_to 'Cadastrar Carros', new_carro_path, id: "bt-green"%>
+<%= link_to 'Cadastrar Carros', new_carro_path, class: "bt-green bt"%>
